@@ -1,0 +1,32 @@
+2385-05-18T23:10:30.242313000 0.009150s notice: In recursion: removing file 'C:\\Users\\theki\\workspace\\vegas\\rethinkdb_data\\tmp'
+2385-05-18T23:10:30.242834000 0.009773s warn: Trying to delete non-existent file 'C:\\Users\\theki\\workspace\\vegas\\rethinkdb_data\\tmp'
+2385-05-18T23:10:30.243817000 0.010758s notice: Initializing directory C:\\Users\\theki\\workspace\\vegas\\rethinkdb_data
+2385-05-18T23:10:30.244819600 0.011572s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\Users\\theki\\workspace\\vegas\\rethinkdb_data' did not already exist or is empty.)
+2385-05-18T23:10:30.244819601 0.011620s notice: Running rethinkdb 2.3.2-windows-beta (MSC 190023506)...
+2385-05-18T23:10:30.247830000 0.014600s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2385-05-18T23:10:30.247830001 0.014644s notice: Loading data from directory C:\\Users\\theki\\workspace\\vegas\\rethinkdb_data
+2385-05-18T23:10:30.455883100 0.222600s info: Cache size is set to 200 MB
+2385-05-18T23:10:30.457889200 0.224664s notice: Listening for intracluster connections on port 60679
+2385-05-18T23:10:30.458390900 0.226014s notice: Listening for client driver connections on port 60680
+2385-05-18T23:10:30.458390901 0.226174s notice: Listening for administrative HTTP connections on port 60681
+2385-05-18T23:10:30.458390902 0.226197s notice: Listening on cluster address: 127.0.0.1
+2385-05-18T23:10:30.458390903 0.226229s notice: Listening on driver address: 127.0.0.1
+2385-05-18T23:10:30.458390904 0.226229s notice: Listening on http address: 127.0.0.1
+2385-05-18T23:10:30.458390905 0.226232s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2385-05-18T23:10:30.458390906 0.226233s notice: Server ready, "mitsuru_bl1" 0272c85e-c9ac-4104-93cd-206c92d006ef
+2385-05-18T23:10:30.603161100 0.369954s info: Table 15c227ad-a1bd-4ea9-aa33-9d1f36951f9b: Starting a new Raft election for term 1.
+2385-05-18T23:10:30.603664800 0.370405s info: Table 15c227ad-a1bd-4ea9-aa33-9d1f36951f9b: Added replica on this server.
+2385-05-18T23:10:30.610181800 0.377112s info: Table 15c227ad-a1bd-4ea9-aa33-9d1f36951f9b: This server is Raft leader for term 1. Latest log index is 0.
+2385-05-18T23:10:31.241371500 1.007947s info: Table aa93a459-d1df-446a-b353-df65bed29019: Starting a new Raft election for term 1.
+2385-05-18T23:10:31.241371501 1.008263s info: Table aa93a459-d1df-446a-b353-df65bed29019: Added replica on this server.
+2385-05-18T23:10:31.248192700 1.014975s info: Table aa93a459-d1df-446a-b353-df65bed29019: This server is Raft leader for term 1. Latest log index is 0.
+2385-05-18T23:10:31.928274800 1.695129s info: Table f715bdf9-b6b0-40ff-965b-eeccf7e2eef8: Starting a new Raft election for term 1.
+2385-05-18T23:10:31.928777300 1.695527s info: Table f715bdf9-b6b0-40ff-965b-eeccf7e2eef8: Added replica on this server.
+2385-05-18T23:10:31.935537200 1.702201s info: Table f715bdf9-b6b0-40ff-965b-eeccf7e2eef8: This server is Raft leader for term 1. Latest log index is 0.
+2385-05-18T23:10:32.654948100 2.421966s info: Table b9d2cdd7-6b10-43b6-b270-2f54148f0d0e: Starting a new Raft election for term 1.
+2385-05-18T23:10:32.655472000 2.422281s info: Table b9d2cdd7-6b10-43b6-b270-2f54148f0d0e: Added replica on this server.
+2385-05-18T23:10:32.662531300 2.429363s info: Table b9d2cdd7-6b10-43b6-b270-2f54148f0d0e: This server is Raft leader for term 1. Latest log index is 0.
+2385-05-18T23:23:16.251852100 766.018559s notice: Server got Control-C; shutting down...
+2385-05-18T23:23:16.251852101 766.018712s notice: Shutting down client connections...
+2385-05-18T23:23:16.252837400 766.019529s notice: All client connections closed.
+2385-05-18T23:23:16.252837401 766.019533s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
