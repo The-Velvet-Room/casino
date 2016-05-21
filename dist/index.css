@@ -1,0 +1,52 @@
+.twitch-video-target {
+    height: 50vh;
+}
+
+.twitch-chat-target {
+    height: 100vh;
+}
+
+.twitch-video-target iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.twitch-chat-target iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.bet-info-column {
+    height: 50vh;
+}
+
+.bet-list {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.bet-list-left {
+    background: rgba(217, 83, 79, 0.5);
+}
+
+.bet-list-right {
+    background: rgba(91, 192, 222, 0.5);
+}
+
+.bet-panel {
+    height: 50vh;
+    text-align: center;
+}
+
+.bet-input {
+    height: 25%;
+    text-align: center;
+}
+
+.bet-btn-container {
+    height: 25%;
+}
+
+.bet-btn {
+    height: 100%;
+}

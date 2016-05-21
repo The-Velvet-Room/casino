@@ -48,8 +48,8 @@ project_name = "webapp"
 # 'connect' will connect to an existing RethinkDB instance
 # 'start_rethinkdb' will run an internal RethinkDB instance
 #------------------------------------------------------------------------------
-# connect = "localhost:28015"
-# start_rethinkdb = false
+ connect = "localhost:28015"
+ start_rethinkdb = false
 
 
 ###############################################################################
