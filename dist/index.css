@@ -23,6 +23,7 @@
 .bet-list {
     height: 100%;
     overflow-y: auto;
+    padding: 0;
 }
 
 .bet-list-left {
@@ -38,9 +39,14 @@
     text-align: center;
 }
 
-.bet-input {
+.bet-input-target {
     height: 25%;
     text-align: center;
+}
+
+.bet-input-target input {
+    width: 100%;
+    height: 80%;
 }
 
 .bet-btn-container {
@@ -49,4 +55,18 @@
 
 .bet-btn {
     height: 100%;
+}
+
+.wager-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.wager-amount {   
+    text-align: right;
+}
+
+.wager-name {
+    margin-left: 1rem;
 }

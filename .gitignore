@@ -24,3 +24,6 @@ _testmain.go
 *.prof
 
 rethinkdb_data
+node_modules
+.hz
+*.toml
